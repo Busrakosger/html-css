@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body style="background-image: url(back.jpg);">
+    <div>
+        
+        <ul>
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="hizmetlerimiz.html">Hizmetlerimiz</a></li>
+            <li><a href="randevu.html">Randevu Al</a></li>
+            <li><a href="#Bölümler">Bölümler</a>
+           <ul>
+           <li><a href="#a">Acil servis ve kritik bakım</a></li>
+           <li><a href="#b">Cerrahi</a></li>
+           <li><a href="#c">Dahiliye</a></li>
+           <li><a href="#d">Görüntüleme Sistemleri</a></li>
+           <li><a href="#e">Doğum ve jinekoloji</a></li>
+           <li><a href="#f">Anestezi</a></li>
+           <li><a href="#g">Laboratuvar</a></li>
+           <li><a href="#h">Servis</a></li>
+           <li><a href="#ı">Kedi-köpek psikolojisi</a></li>
+           <li><a href="#i">Yoğun bakım ve hasta yatış</a></li>
+           <li><a href="#j">Kuaför</a></li>
+           <li><a href="#k">Kuşlar ve egzotik hayvanlar</a></li>
+           </ul>
+       </li>
+       
+        </ul>
+    </div>
+
+    <div class="kayit">
+     <form>
+         <h2>Veteriner Hekim Randevu Sistemi</h2>
+        <legend>Hasta Kayıt Formu</legend><br>
+        E-posta Adresi
+        <input type="text" name="mail"><br>
+        Adınız Soyadınız
+        <input type="text" name="adsoy"><br>
+        Telefon Numaranız
+        <input type="text" name="mail" placeholder="(___)(_______)"><br>
+        Yaşadığınız İl
+        <input type="text" name="il"><br>
+        İlçe
+        <input type="text" name="ilce"><br>
+        Randevu Tarihi 
+            <input type="datetime-local" name="bdaytime"><br>
+        Hastanızın Türü<br>
+        <label for="kedi">Kedi</label><input type="radio" name="buton"  value="Kedi"><br>
+        <label for="kopek">Köpek</label><input type="radio" name="buton"  value="Köpek"><br>
+        <label for="egzotik">Kanatlı/Egzotik</label><input type="radio" name="buton" value="Kanatlı/egzotik"><br>
+        <label for="at">At</label><input type="radio" name="buton" value="at"><br>
+        <label for="at">Büyükbaş/Küçükbaş</label><input type="radio" name="buton" value="bk"><br>
+        <label for="diger">Diğer<input type="text" name="text"></label><br>
+        <input type="submit" value="Randevu Al" id="randevu">
+
+
+
+
+
+
+     </form>
+
+
+
+
+
+
+    </div>
+
+
+
+    <div class="footer" >Veteriner Hekim Randevu Sistemi -Büşra Köşger </a>
+    </div>
+
+    <script>
+	
+ 
+        var btnrandevu=document.getElementById("randevu");
+            btnrandevu.onclick=function(){
+                window.alert("Randevu Talebiniz Alınmıştır.");
+            }
+        </script>
+
+    </body>
+    </html>
+    

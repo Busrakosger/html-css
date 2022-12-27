@@ -1,0 +1,116 @@
+ .banner img{
+    width: 400px;
+    height: 200px;
+    margin-top: -60px;
+    margin-left: 40px;
+}
+ .banner{
+     background-color: navajowhite;
+     width: auto;
+     height: 200px;
+     margin: -20px;
+     
+ }
+
+ ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d8b044d3;
+    width:auto;
+}
+
+li {
+    display:inline-block;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+li a:hover{
+    background-color:#eec583; 
+}
+
+ul li ul {
+    background-color:#d8b044d3;
+    display:none;
+    position:absolute;
+    
+}
+
+ul li:hover ul{
+    display:block;
+    
+}
+li ul li {
+    display:block; 
+    
+}
+
+h1{
+    color:white;
+    text-align: center;
+    padding: 0%;
+   
+}
+
+p{
+    text-align: center;
+}
+
+.icerik{
+    background-color:#d8b144bf;
+    width: 700px;
+    height: auto;
+    color: white;
+    margin-left: 400px;
+    border-radius: 10px;
+
+}
+
+.footer {
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    left :0;
+    text-align: center;
+    padding : 1rem;
+    background-color:#d8b044d3;
+    font-size : 19px;
+    color: white;
+    width: auto;
+  }
+
+
+.orta a{
+    text-decoration: none;
+    color: #d8b044d3;
+}
+
+.orta{
+    margin-left: 350px;
+    
+}
+
+form{
+    background-color: #d8b144c9;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin-left: 550px;
+    border-radius: 10px;
+    color: white;
+}
+.kayit form input{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: solid 1px #d8b144d8 ;
+}
